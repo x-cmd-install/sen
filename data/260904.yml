@@ -7,7 +7,7 @@ about:
   head: 3a31c94
   archived: false
   latestVersion: 0.8.1
-  collectedAt: 2026-09-04T19:23:45Z
+  collectedAt: 2026-09-04T21:09:39Z
 timeline:
   created: 2015-09-25
   lastCommit: 2025-08-12
@@ -81,6 +81,64 @@ total:
   openIssue: 34
   commit: 438
 ---
+path: /home/runner/.x-repo/github.com/TomasTomecek/sen
+collectedAt: 2026-09-04T21:09:40Z
+loc:
+  Python:
+    code: 5923
+    comments: 326
+    blanks: 1031
+    files: 50
+  Svg:
+    code: 1565
+    comments: 0
+    blanks: 0
+    files: 1
+  RPMSpecfile:
+    code: 54
+    comments: 1
+    blanks: 24
+    files: 1
+  Toml:
+    code: 36
+    comments: 0
+    blanks: 4
+    files: 1
+  Xml:
+    code: 21
+    comments: 0
+    blanks: 7
+    files: 1
+  Dockerfile:
+    code: 14
+    comments: 0
+    blanks: 5
+    files: 1
+  Autoconf:
+    code: 8
+    comments: 0
+    blanks: 0
+    files: 1
+  ForgeConfig:
+    code: 2
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 340
+    blanks: 181
+    files: 6
+  Text:
+    code: 0
+    comments: 8
+    blanks: 0
+    files: 2
+total:
+  code: 7623
+  comments: 675
+  blanks: 1252
+  files: 65
 ---
 date: "2026-08-24"
 repo:
