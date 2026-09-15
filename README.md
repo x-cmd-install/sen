@@ -30,9 +30,9 @@ Overall score: **2.1 / 10**
 
 Lowest-scoring checks:
 
-- **Dangerous-Workflow** (-1/10) — no workflows found
+- **Packaging** (-1/10) — packaging workflow not detected
 - **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
-- **Code-Review** (0/10) — Found 1/11 approved changesets -- score normalized to 0
+- **Token-Permissions** (-1/10) — No tokens found
 
 ## Source
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-15 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-16 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-16 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-18 | 0 | 0 | 0 | 0 | 2 | 0 |
-| 360d | 2025-09-19 | 0 | 0 | 0 | 0 | 2 | 0 |
-| last720d | 2024-09-24 | 2 | 9 | 1 | 1 | 4 | 29 |
+| 30d | 2026-08-16 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-17 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-17 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-19 | 0 | 0 | 0 | 0 | 2 | 0 |
+| 360d | 2025-09-20 | 0 | 0 | 0 | 0 | 2 | 0 |
+| last720d | 2024-09-25 | 2 | 9 | 1 | 1 | 4 | 29 |
 
 ## Improve this data
 
@@ -72,4 +72,4 @@ Install metadata for sen lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260914.yml` · 2026-09-14T05:36:54Z._
+_Snapshot: `data/card/260915.yml` · 2026-09-15T05:24:23Z._
