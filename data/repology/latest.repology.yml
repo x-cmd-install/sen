@@ -1,74 +1,5 @@
-- repo: ubuntu_16_04
-  subrepo: xenial/universe
-  srcname: sen
-  binnames:
-    - sen
-  visiblename: sen
-  version: 0.2.2
-  origversion: 0.2.2-2
-  status: outdated
-  maintainers:
-    - czchen@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_18_04
-  subrepo: bionic/universe
-  srcname: sen
-  binnames:
-    - sen
-  visiblename: sen
-  version: 0.6.0
-  origversion: 0.6.0-0.1
-  status: outdated
-  maintainers:
-    - python-apps-team@lists.alioth.debian.org
-    - czchen@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_20_04
-  subrepo: focal/universe
-  srcname: sen
-  binnames:
-    - sen
-  visiblename: sen
-  version: 0.6.1
-  origversion: 0.6.1-0.1
-  status: outdated
-  maintainers:
-    - python-apps-team@lists.alioth.debian.org
-    - czchen@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_22_04
-  subrepo: jammy/universe
-  srcname: sen
-  binnames:
-    - sen
-  visiblename: sen
-  version: 0.6.2
-  origversion: 0.6.2-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - czchen@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_24_04
-  subrepo: noble/universe
-  srcname: sen
-  binnames:
-    - sen
-  visiblename: sen
-  version: 0.7.0
-  origversion: 0.7.0-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - czchen@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
+- repo: raspbian_stable
+  subrepo: main
   srcname: sen
   binnames:
     - sen
@@ -80,49 +11,21 @@
     - team+python@tracker.debian.org
     - czchen@debian.org
   categories:
-    - universe/misc
-- repo: ubuntu_25_10
-  subrepo: questing/universe
-  srcname: sen
-  binnames:
-    - sen
-  visiblename: sen
-  version: 0.8.0
-  origversion: 0.8.0-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - czchen@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_26_04
-  subrepo: resolute/universe
+    - misc
+- repo: raspbian_testing
+  subrepo: main
   srcname: sen
   binnames:
     - sen
   visiblename: sen
   version: 0.8.1
-  origversion: 0.8.1-1
+  origversion: 0.8.1-2
   status: newest
   maintainers:
     - team+python@tracker.debian.org
     - czchen@debian.org
   categories:
-    - universe/misc
-- repo: ubuntu_26_10
-  subrepo: stonking/universe
-  srcname: sen
-  binnames:
-    - sen
-  visiblename: sen
-  version: 0.8.1
-  origversion: 0.8.1-1
-  status: newest
-  maintainers:
-    - team+python@tracker.debian.org
-    - czchen@debian.org
-  categories:
-    - universe/misc
+    - misc
 - repo: deepin_25
   subrepo: community
   srcname: sen
@@ -151,20 +54,6 @@
     - czchen@debian.org
   categories:
     - misc
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: sen
-  binnames:
-    - sen
-  visiblename: sen
-  version: 0.6.1
-  origversion: 0.6.1-0.1
-  status: outdated
-  maintainers:
-    - python-apps-team@lists.alioth.debian.org
-    - czchen@debian.org
-  categories:
-    - admin
 - repo: pureos_landing
   subrepo: landing/main
   srcname: sen
@@ -179,20 +68,6 @@
     - czchen@debian.org
   categories:
     - admin
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: sen
-  binnames:
-    - sen
-  visiblename: sen
-  version: 0.8.1
-  origversion: 0.8.1-2
-  status: newest
-  maintainers:
-    - team+python@tracker.debian.org
-    - czchen@debian.org
-  categories:
-    - misc
 - repo: raspbian_oldstable
   subrepo: main
   srcname: sen
@@ -207,22 +82,8 @@
     - czchen@debian.org
   categories:
     - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: sen
-  binnames:
-    - sen
-  visiblename: sen
-  version: 0.8.0
-  origversion: 0.8.0-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - czchen@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
+- repo: devuan_unstable
+  subrepo: unstable/main
   srcname: sen
   binnames:
     - sen
@@ -611,3 +472,156 @@
     - czchen@debian.org
   categories:
     - admin
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: sen
+  binnames:
+    - sen
+  visiblename: sen
+  version: 0.6.1
+  origversion: 0.6.1-0.1
+  status: outdated
+  maintainers:
+    - python-apps-team@lists.alioth.debian.org
+    - czchen@debian.org
+  categories:
+    - admin
+- repo: ubuntu_16_04
+  subrepo: xenial/universe
+  srcname: sen
+  binnames:
+    - sen
+  visiblename: sen
+  version: 0.2.2
+  origversion: 0.2.2-2
+  status: outdated
+  maintainers:
+    - czchen@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_18_04
+  subrepo: bionic/universe
+  srcname: sen
+  binnames:
+    - sen
+  visiblename: sen
+  version: 0.6.0
+  origversion: 0.6.0-0.1
+  status: outdated
+  maintainers:
+    - python-apps-team@lists.alioth.debian.org
+    - czchen@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: sen
+  binnames:
+    - sen
+  visiblename: sen
+  version: 0.6.1
+  origversion: 0.6.1-0.1
+  status: outdated
+  maintainers:
+    - python-apps-team@lists.alioth.debian.org
+    - czchen@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: sen
+  binnames:
+    - sen
+  visiblename: sen
+  version: 0.6.2
+  origversion: 0.6.2-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: sen
+  binnames:
+    - sen
+  visiblename: sen
+  version: 0.7.0
+  origversion: 0.7.0-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: sen
+  binnames:
+    - sen
+  visiblename: sen
+  version: 0.8.0
+  origversion: 0.8.0-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_25_10
+  subrepo: questing/universe
+  srcname: sen
+  binnames:
+    - sen
+  visiblename: sen
+  version: 0.8.0
+  origversion: 0.8.0-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: sen
+  binnames:
+    - sen
+  visiblename: sen
+  version: 0.8.1
+  origversion: 0.8.1-1
+  status: newest
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: sen
+  binnames:
+    - sen
+  visiblename: sen
+  version: 0.8.1
+  origversion: 0.8.1-1
+  status: newest
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
+  srcname: sen
+  binnames:
+    - sen
+  visiblename: sen
+  version: 0.8.1
+  origversion: 0.8.1-1
+  status: newest
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - universe/misc
