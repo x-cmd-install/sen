@@ -1,46 +1,73 @@
-- repo: pureos_amber
-  subrepo: amber/main
+- repo: devuan_unstable
+  subrepo: unstable/main
   srcname: sen
   binnames:
     - sen
   visiblename: sen
-  version: 0.6.0
-  origversion: 0.6.0-0.1
-  status: outdated
+  version: 0.8.1
+  origversion: 0.8.1-3
+  status: newest
   maintainers:
-    - python-apps-team@lists.alioth.debian.org
+    - team+python@tracker.debian.org
     - czchen@debian.org
   categories:
-    - admin
-- repo: fedora_42
+    - misc
+- repo: fedora_39
   subrepo: release
   srcname: sen
   binnames:
     - sen
     - python3-sen
   visiblename: sen
-  version: 0.8.0
-  origversion: 0.8.0-2.fc42
+  version: 0.7.0
+  origversion: 0.7.0-3.fc39
   status: outdated
   summary: Terminal User Interface for docker engine
   licenses:
     - MIT
   categories:
     - Unspecified
-- repo: ubuntu_26_10
-  subrepo: stonking/universe
+- repo: ubuntu_16_04
+  subrepo: xenial/universe
   srcname: sen
   binnames:
     - sen
   visiblename: sen
-  version: 0.8.1
-  origversion: 0.8.1-1
-  status: newest
+  version: 0.2.2
+  origversion: 0.2.2-2
+  status: outdated
   maintainers:
-    - team+python@tracker.debian.org
     - czchen@debian.org
   categories:
     - universe/misc
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: sen
+  binnames:
+    - sen
+  visiblename: sen
+  version: 0.6.1
+  origversion: 0.6.1-0.1
+  status: outdated
+  maintainers:
+    - python-apps-team@lists.alioth.debian.org
+    - czchen@debian.org
+  categories:
+    - misc
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: sen
+  binnames:
+    - sen
+  visiblename: sen
+  version: 0.6.1
+  origversion: 0.6.1-0.1
+  status: outdated
+  maintainers:
+    - python-apps-team@lists.alioth.debian.org
+    - czchen@debian.org
+  categories:
+    - misc
 - repo: aur
   srcname: sen
   binname: sen
@@ -65,20 +92,6 @@
     - fallback-mnt-aur@repology
   licenses:
     - MIT
-- repo: debian_11
-  subrepo: bullseye/main
-  srcname: sen
-  binnames:
-    - sen
-  visiblename: sen
-  version: 0.6.1
-  origversion: 0.6.1-0.1
-  status: outdated
-  maintainers:
-    - python-apps-team@lists.alioth.debian.org
-    - czchen@debian.org
-  categories:
-    - misc
 - repo: debian_12
   subrepo: bookworm/main
   srcname: sen
@@ -135,18 +148,6 @@
     - czchen@debian.org
   categories:
     - misc
-- repo: deepin_unstable
-  subrepo: main
-  srcname: sen
-  binnames:
-    - sen
-  visiblename: sen
-  version: 0.6.0
-  origversion: 0.6.0-0.1
-  status: outdated
-  maintainers:
-    - python-apps-team@lists.alioth.debian.org
-    - czchen@debian.org
 - repo: deepin_25
   subrepo: community
   srcname: sen
@@ -161,49 +162,6 @@
     - czchen@debian.org
   categories:
     - admin
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: sen
-  binnames:
-    - sen
-  visiblename: sen
-  version: 0.6.1
-  origversion: 0.6.1-0.1
-  status: outdated
-  maintainers:
-    - python-apps-team@lists.alioth.debian.org
-    - czchen@debian.org
-  categories:
-    - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: sen
-  binnames:
-    - sen
-  visiblename: sen
-  version: 0.8.1
-  origversion: 0.8.1-3
-  status: newest
-  maintainers:
-    - team+python@tracker.debian.org
-    - czchen@debian.org
-  categories:
-    - misc
-- repo: fedora_39
-  subrepo: release
-  srcname: sen
-  binnames:
-    - sen
-    - python3-sen
-  visiblename: sen
-  version: 0.7.0
-  origversion: 0.7.0-3.fc39
-  status: outdated
-  summary: Terminal User Interface for docker engine
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
 - repo: fedora_40
   subrepo: release
   srcname: sen
@@ -258,6 +216,21 @@
   visiblename: sen
   version: 0.8.0
   origversion: 0.8.0-1.fc41
+  status: outdated
+  summary: Terminal User Interface for docker engine
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: release
+  srcname: sen
+  binnames:
+    - sen
+    - python3-sen
+  visiblename: sen
+  version: 0.8.0
+  origversion: 0.8.0-2.fc42
   status: outdated
   summary: Terminal User Interface for docker engine
   licenses:
@@ -445,6 +418,20 @@
     - czchen@debian.org
   categories:
     - misc
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: sen
+  binnames:
+    - sen
+  visiblename: sen
+  version: 0.6.0
+  origversion: 0.6.0-0.1
+  status: outdated
+  maintainers:
+    - python-apps-team@lists.alioth.debian.org
+    - czchen@debian.org
+  categories:
+    - admin
 - repo: pureos_byzantium
   subrepo: byzantium/main
   srcname: sen
@@ -515,19 +502,6 @@
     - czchen@debian.org
   categories:
     - misc
-- repo: ubuntu_16_04
-  subrepo: xenial/universe
-  srcname: sen
-  binnames:
-    - sen
-  visiblename: sen
-  version: 0.2.2
-  origversion: 0.2.2-2
-  status: outdated
-  maintainers:
-    - czchen@debian.org
-  categories:
-    - universe/misc
 - repo: ubuntu_18_04
   subrepo: bionic/universe
   srcname: sen
@@ -614,6 +588,20 @@
     - universe/misc
 - repo: ubuntu_26_04
   subrepo: resolute/universe
+  srcname: sen
+  binnames:
+    - sen
+  visiblename: sen
+  version: 0.8.1
+  origversion: 0.8.1-1
+  status: newest
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
   srcname: sen
   binnames:
     - sen
