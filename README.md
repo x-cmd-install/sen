@@ -56,25 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-09-25 | 0 | 0 | 1 | 0 | 0 | 0 |
-| 90d | 2026-08-26 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last180d | 2026-05-28 | 0 | 0 | 1 | 0 | 0 | 0 |
-| 360d | 2025-11-29 | 0 | 0 | 1 | 0 | 2 | 0 |
-| last720d | 2024-12-04 | 1 | 5 | 2 | 0 | 3 | 16 |
-
-## Distribution status
-
-Reported by **45** distros on [repology.org](https://repology.org/project/sen). **14** are ✅ on the latest upstream release, **26** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `0.8.1` | ✅ latest |
-| Debian 14 | `0.8.1` | ✅ latest |
-| Debian 13 | `0.8.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `0.8.1` | ✅ latest |
-| Ubuntu 24.04 LTS | `0.7.0` | ⚠️ outdated |
-| Fedora rawhide | `0.8.1` | ✅ latest |
+| 30d | 2026-10-26 | 0 | 0 | 1 | 0 | 0 | 0 |
+| last60d | 2026-09-26 | 0 | 0 | 1 | 0 | 0 | 0 |
+| 90d | 2026-08-27 | 0 | 0 | 1 | 0 | 0 | 0 |
+| last180d | 2026-05-29 | 0 | 0 | 1 | 0 | 0 | 0 |
+| 360d | 2025-11-30 | 0 | 0 | 1 | 0 | 2 | 0 |
+| last720d | 2024-12-05 | 1 | 5 | 2 | 0 | 3 | 16 |
 
 ## Improve this data
 
@@ -85,4 +72,4 @@ Install metadata for sen lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T11:38:16Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T10:02:56Z._
